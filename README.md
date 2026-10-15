@@ -11,28 +11,28 @@
 
 ### `PLAYER 1 HAS JOINED THE SERVER`
 
-**Keykadelio "Moon" Soewardana** · IT student · future game designer · Bali, Indonesia
+**Keykadelio "Moon" Soewardana** · IT student · future game designer (Hopefully) · Bali, Indonesia
 
-`LVL 18` · `CLASS: Code Wizard` · `SUBCLASS: Aspiring Game Designer` · `HOME BIOME: Bali 🌴`
+`LVL 18` · `CLASS: Code Mage` · `SUBCLASS: Aspiring Game Designer` · `HOME BIOME: Bali 🌴`
 
 </div>
 
 ---
 
-## 🎮 `> cat player_card.json`
+## 🎮 `> player_card.json`
 
 ```json
 {
   "name": "Keykadelio Soewardana",
-  "alias": ["Moon", "lio38"],
+  "alias": ["Moon", "38"],
   "class": "Information Technology student",
-  "guild": "Universitas Udayana (Unud)",
-  "spawn_point": "Denpasar, Bali",
-  "origin_map": "SMA Taman Rama (IPS track, yes, a social sciences kid who codes)",
-  "main_quest": "Study game design in Japan",
-  "current_status": "Grinding university + Japanese at the same time",
-  "weakness": "Digital art. Please don't hand me a drawing tablet.",
-  "strength": "Code. Give me a logic problem and I'll lose track of time."
+  "guild": "Fakultas Teknik Universitas Udayana (Unud)",
+  "spawn_point": "Bandung, Jawa Barat",
+  "previous_gulds": "SD-SMA Bali Kiddy School, SMA Taman Rama (IPS track, yes, a social sciences kid who codes)",
+  "main_quest": "Study game design internationally",
+  "current_status": "Grinding university + Theater side quests",
+  "weakness": "Lazyness, Sleepyness, and... Memorising.",
+  "strength": "To Be Continued..."
 }
 ```
 
@@ -40,12 +40,12 @@
 
 ```python
 class MainQuest:
-    goal = "Game Design in Japan 🇯🇵"
+    goal = "Game Design internationally 🇺🇳"
 
     def __init__(self):
         self.stage_1 = "Finish IT at Udayana in Bali"
-        self.stage_2 = "Learn Japanese alongside uni, target JLPT N2"
-        self.stage_3 = "Apply to a game design program in Japan"
+        self.stage_2 = "Learn the language of the country i wanna go to"
+        self.stage_3 = "Apply to a game design program (Hopefully in Japan)"
         self.boss     = "Making games without depending on pixel-pushing art skills"
 
     def status(self):
@@ -58,41 +58,51 @@ The plan is simple: stay in Bali first, build up the technical side, get the lan
 
 | Slot | Item | Notes |
 |:--|:--|:--|
-| 🗡️ Main weapon | **Godot / GDScript** | Used for my tank game |
-| 🧪 Potion | **SQL** | MediCare hospital reservation database (ERD, PDM, DDL, DML, JOIN, aggregation) |
-| 🌐 Currently learning | **Computer Networks** | Jaringan Komputer & Komunikasi, Kelas D |
-| 🈂️ Language pack | **Japanese** | Slowly leveling toward N2 |
-| 🎨 Cosmetic skins | **Canva** | Good enough for thumbnails and layouts |
+| 🗡️ Main weapon | **Godot** | Used for my tank game |
+| 🧪 Potion | **C Language & SQL** | Slowly understanding it all |
+| 🌐 Currently learning | **Coding & Computer Networks & Math** | Coding & Cmputer netowrks are easy to understand, but i can't be bothered to do Math |
+| 🎨 Cosmetic skins | **CapCut & Canva** | Go to for editing images & videos |
 | 💻 Mount | **HP EliteBook 850 G5** | Not a gaming rig, but it gets the job done |
 
 ## 🛠️ Active Projects
 
 ### 🪖 Tank Game *(Godot)*
-A 2D pixel side-view tank game inspired by the Girls und Panzer vibe. Work in progress, and the one I'm most excited about.
+A 2D pixel side-view tank game inspired by the Girls und Panzer vibe. Work in progress, Still in vision step. (0% Progress).
 
-### 🏥 MediCare Database *(SQL)*
-Hospital reservation database for my BUILD IT assignment: designed the ERD, built the physical model, wrote the DDL and DML, then queried it with JOINs and aggregations.
+### 🎬 Theater *(UKM Teater Orok Noceng)*
+An active member of UKM Teater Orok Noceng. Currenty in the role of Camper in OFSN & Pentung 2026
 
-### 🎬 HeartBeat *(short film)*
-Anti-bullying school drama I worked on with my classmates. Proof that I can leave the terminal sometimes.
-
-### 📡 New Moon 38 *(content)*
-My YouTube / social media project under the name Moon. Recording with OBS, building a brand, and figuring it out as I go.
+### More Comming Soon
+Big dreams but can't do much now.
 
 ## 🕹️ Gamer Stats
 
 ```text
-FAVORITE GENRES
-├── Sandbox ........ Minecraft
+FAVORITE GAMES
+├── Turn Based ..... Persona 5
+├── Sandbox ........ Minecraft, Roblox?
 ├── Grand Strategy . Hearts of Iron IV
 ├── Combat ......... War Thunder
 └── Racing ......... yes, a lot of racing games
 
-SIDE ACTIVITY
-└── Dreaming up my own game concepts (some of them might even get built)
+FAVORITE ANIMES
+├── Girls Und Panzer | Greatest Anime Of All Time
+├── Quintessensial Qintuplets
+└── Every other Romance anime
 
-SOUNDTRACK
-└── Lovejoy on repeat
+SIDE ACTIVITY
+└── Learning how to be in a relationship with my GF | I suck
+
+SOUNDTRACKS
+├── Lovejoy & CAS on repeat
+├── Rock
+├── Nightcore
+├── J Pop
+├── Eurobeat
+├── Pop
+├── Rap
+├── MemeRap
+└── Whatever Persona music is
 ```
 
 ## 📈 Skill Tree
@@ -101,14 +111,9 @@ SOUNDTRACK
 CODING          ████████░░  strong
 LOGIC/SYSTEMS   ████████░░  strong
 GAME DESIGN     █████░░░░░  leveling
-JAPANESE        ███░░░░░░░  leveling
+SOCIALISING     ███░░░░░░░  leveling
 DIGITAL ART     ██░░░░░░░░  not my build
 ```
-
-## 📬 Join My Party
-
-- 📺 YouTube: **Moon / New Moon 38**
-- 🎯 Open to: game jams, collabs, and anyone who wants a programmer for their project (you handle the art, I'll handle the code 😄)
 
 ---
 
@@ -116,7 +121,7 @@ DIGITAL ART     ██░░░░░░░░  not my build
 
 ```
 > SAVING PROGRESS...
-> Next checkpoint: Japan.
+> Next checkpoint: Semester 2.
 > Thanks for stopping by, player. Press START to see my repos.
 ```
 
