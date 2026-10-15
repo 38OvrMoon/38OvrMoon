@@ -28,7 +28,7 @@
   "class": "Information Technology student",
   "guild": "Fakultas Teknik Universitas Udayana (Unud)",
   "spawn_point": "Bandung, Jawa Barat",
-  "previous_gulds": "SD-SMA Bali Kiddy School, SMA Taman Rama (IPS track, yes, a social sciences kid who codes)",
+  "previous_guilds": "SD-SMA Bali Kiddy School, SMA Taman Rama (IPS track, yes, a social sciences kid who codes)",
   "main_quest": "Study game design internationally",
   "current_status": "Grinding university + Theater side quests",
   "weakness": "Lazyness, Sleepyness, and... Memorising.",
